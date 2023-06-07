@@ -1,0 +1,35 @@
+.nav {
+    background-color: rgb(72, 72, 72);
+    color: whitesmoke;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+.nav a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav-links {
+    width: 40%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-title {
+    margin-left: 10px;
+}
+.btn {
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    border-radius: 0;
+    border: 2px solid black;
+    color: white;
+    background-color: #2b78e4;
+    box-shadow: 3px 3px black
+}
